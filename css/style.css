@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+body {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    height: 1400px;
+}
+
 .nav {
     height: 460px;
     background-color: #1f2937;
