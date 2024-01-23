@@ -14,6 +14,7 @@
 .upper {
     padding: 12px;
     display: flex;
+    margin: 0 10%;
     justify-content: space-between;
     align-items: center;
     height: 40px;
@@ -34,18 +35,17 @@
 
 .lower {
     height: 360px;
+    margin: 0 10%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .lower img {
-    width: 30%;
+    width: 35%;
 }
 
 .description {
-    padding: 10px;
-    margin-left: 30px;
     width: 30%;
     display: flex;
     flex-direction: column;
