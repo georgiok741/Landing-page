@@ -4,7 +4,7 @@
 }
 
 .nav {
-    height: 400px;
+    height: 460px;
     background-color: #1f2937;
     font-family: Arial, Helvetica, sans-serif;
     size: 18px;
@@ -30,4 +30,31 @@
     list-style-type: none;
     display: flex;
     gap: 50px;
+}
+
+.lower {
+    height: 360px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.lower img {
+    height: 250px;
+}
+
+.description {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+
+.description button {
+    border: none;
+    background-color: #3882f6;
+    padding: 8px 30px;
+    border-radius: 10px;
 }
