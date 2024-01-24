@@ -86,7 +86,6 @@ body {
     justify-content: center;
     gap: 30px;
     align-items: center;
-    border: 1px solid red;
 }
 
 .information h4 {
@@ -96,11 +95,27 @@ body {
 }
 
 .info-imgs {
-    border: 1px solid blue;
     display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.subinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    text-align: center;
 }
 
 .subinfo img {
     height: 200px;
     width: 200px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.subinfo p {
+    font-size: 18px;
+    color: #a4a5a5;
 }
