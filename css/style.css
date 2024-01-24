@@ -80,6 +80,7 @@ body {
 }
 
 .information {
+    padding: 30px;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -145,4 +146,50 @@ body {
     color: #1f2937;
     font-weight: 900;
     font-size: 18px;
+}
+
+.action {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f9faf8;
+}
+
+.action-box {
+    height: 50%;
+    width: 80%;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-text h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.action p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.action button {
+    padding: 5px 30px;
+    color:#f9faf8;
+    background-color:#3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #1f2937;
+    color:#f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
